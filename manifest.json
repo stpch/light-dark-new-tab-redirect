@@ -5,7 +5,7 @@
     "permissions": [
         "storage"
     ],
-    "description": "Redirects new tabs to a custom URL with a configurable background color (light, dark, device or custom).",
+    "description": "Redirects new tabs to a custom URL with a configurable background color (light, dark, system or custom).",
     "chrome_url_overrides": {
         "newtab": "redirect.html"
     }
