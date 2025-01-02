@@ -1,0 +1,11 @@
+{
+    "name": "new-tab-color-redirect",
+    "version": "1.0.0",
+    "description": "Chrome extension that redirects new tabs to a custom URL with a configurable background color (light, dark, device or custom).",
+    "homepage": "https://github.com/stpch/new-tab-color-redirect",
+    "repository": "https://github.com/stpch/new-tab-color-redirect.git",
+    "bugs": "https://github.com/stpch/new-tab-color-redirect/issues",
+    "engines": {
+        "node": "22"
+    }
+}
