@@ -1,53 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Options - New Tab Color Redirect</title>
-        <style>
-            :root {
-                --spacing: 8px;
-            }
-
-            body {
-                color: #000;
-                margin: calc(4 * var(--spacing));
-                background-color: #fff;
-                overflow: hidden;
-                font-size: 1rem;
-            }
-
-            input {
-                font-size: 1rem;
-                padding: var(--spacing);
-            }
-
-            .input-group {
-                display: flex;
-                flex-direction: column;
-                gap: calc(0.5 * var(--spacing));
-                align-items: flex-start;
-            }
-
-            .input-group label {
-                font-size: 0.8rem;
-            }
-
-            @media (prefers-color-scheme: dark) {
-                body {
-                    color: #fff;
-                    background: #3c3c3c;
-                }
-
-                input {
-                    color-scheme: dark;
-                }
-            }
-        </style>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+        <meta content="light dark" name="color-scheme">
+        <link href="pico.classless.min.css" rel="stylesheet">
+        <title>Light/Dark New Tab Redirect</title>
     </head>
     <body>
-        <div class="input-group">
-            <label for="url">New tab URL</label>
-            <input id="url" type="text" alt="URL" />
-        </div>
+        <main>
+            <h2>Light/Dark New Tab Redirect</h2>
+            <form id="options">
+                <fieldset role="group">
+                    <input
+                        aria-label="URL"
+                        name="url"
+                        placeholder="https://www.example.com/"
+                    >
+                    <input type="submit" value="Save">
+                </fieldset>
+            </form>
+        </main>
         <script src="options.js"></script>
     </body>
 </html>

@@ -1,11 +1,11 @@
 {
     "manifest_version": 3,
-    "name": "New Tab Color Redirect",
+    "name": "Light/Dark New Tab Redirect",
     "version": "1.0.0",
     "permissions": [
         "storage"
     ],
-    "description": "Redirects new tabs to a custom URL with a configurable background color (light, dark, system or custom).",
+    "description": "Redirects new tabs to a custom URL with support for light/dark mode.",
     "options_page": "options.html",
     "chrome_url_overrides": {
         "newtab": "redirect.html"
