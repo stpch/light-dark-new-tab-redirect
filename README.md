@@ -1,5 +1,8 @@
 
-# light-dark-new-tab-redirect<img src="images/promotional.png" align="center" height="70">
+# light-dark-new-tab-redirect
 
-Minimalistic Chrome extension that redirects new tabs to a custom URL with
-support for light/dark mode.
+<img src="images/promotional.png" height="140" style="float: left; margin-left: -40px">
+
+* <h3>Minimalistic Chrome extension</h3>
+* <h3>Redirects new tabs to a custom URL</h3>
+* <h3>Light/Dark mode support</h3>
